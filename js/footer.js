@@ -39,6 +39,7 @@ header ='<!doctype html>\
                         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">\
                             <h3 class="g-font-size-18--xs g-color--white">JGO 捷國國際</h3>\
                             <p class="g-color--white-opacity">身為值得信賴的汽車零件供應商，我們專注於優質零件、正規貨源、貼心售後服務，並以專業技術支援確保您的行車無憂。</p>\
+                            <li><a href="https://lihi.cc/RdMCY" target="_blank"><img src="./img/QR_line.png" alt="線上客服_line" style="width: 50px; height: auto;"></a></li>\
                             <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://lihi.cc/RdMCY" target="_blank">LINE 線上客服</a></li>\
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" >營業時間 | 週一至週五 9:00 - 18:00</a></li>\
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" >地址 | 新北市中和區中正路 733 號 5F</a></li>\
