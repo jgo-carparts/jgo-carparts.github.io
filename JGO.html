@@ -44,38 +44,31 @@
 
         <!--========== PROMO BLOCK ==========-->
 
-<div class="s-promo-block-v3 g-bg-position--center g-fullheight--sm s-video__bg"
-     data-vidbg-bg="mp4: ./include/media/mp4_Engine_Machinery_1280x720.mp4, poster: ./include/media/GrafeneBG.jpg"
-     data-vidbg-options="loop: true, muted: true, overlay: true">
+<div class="s-promo-block-v3 g-bg-position--center g-fullheight--sm s-video__bg" style="position: relative; overflow: hidden;">
+    
+    <video autoplay muted loop playsinline poster="include/media/GrafeneBG.jpg" 
+           style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1; transform: translate(-50%, -50%); object-fit: cover;">
+        <source src="include/media/mp4_Engine_Machinery_1280x720.mp4" type="video/mp4">
+    </video>
 
-
-
-        <!-- <div class="s-promo-block-v3 g-bg-position--center g-fullheight--sm s-video__bg" data-vidbg-bg="mp4: include/media/mp4_Engine_Machinery_1280x720.mp4, webm: include/media/webm_video.webm, poster: include/media/GrafeneBG.jpg" data-vidbg-options="loop: true, muted: true, overlay: false"> -->
-
-        <!-- <div class="s-promo-block-v3 g-bg-position--center g-fullheight--sm s-video__bg" data-vidbg-bg="mp4: https://www.dropbox.com/scl/fi/xj2hpspr76ol8qmw4mhaw/mp4_Engine_Machinery_1280x720.mp4?rlkey=lvf6r9m8y83fs85p7u9fbp5ib&st=tyod2zrd&raw=1, webm: include/media/webm_video.webm, poster: include/media/GrafeneBG.jpg" data-vidbg-options="loop: true, muted: true, overlay: false"> -->
-
-
-            <div class="container g-position--overlay g-ver-center--sm g-padding-y-125--xs g-padding-y-0--sm">
-                <div class="g-margin-t-30--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md">
-                    <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-50--lg g-color--white">關於捷國 | About JGO</h1>
-                </div>
+    <div class="container g-position--overlay g-ver-center--sm g-padding-y-125--xs g-padding-y-0--sm">
+        <div class="g-margin-t-30--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md">
+            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-50--lg g-color--white">關於捷國 | About JGO</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-push-4 g-margin-b-50--xs g-margin-b-0--md">
+                <div class="s-promo-block-v3__divider g-display-none--xs g-display-block--md"></div>
                 <div class="row">
-                    <div class="col-sm-8 col-sm-push-4 g-margin-b-50--xs g-margin-b-0--md">
-                        <div class="s-promo-block-v3__divider g-display-none--xs g-display-block--md"></div>
-                        <div class="row">
-                            <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
-                                    <p class="g-font-size-18--xs g-color--white-opacity">JGO 的承諾：不只卓越，更要精準 在汽車零件的世界裡。每一顆螺絲、每一個零件，都承載著我們對專業的敬畏。<br><br>JGO 連結了傳統職人的經驗誠信與現代電商的便捷透明，旨在為全台車主提供最精確、高品質的零件解決方案。</p>
-                                </div>
-                            </div>
-
+                    <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                            <p class="g-font-size-18--xs g-color--white-opacity">JGO 的承諾：不只卓越，更要精準 在汽車零件的世界裡。每一顆螺絲、每一個零件，都承載著我們對專業的敬畏。<br><br>JGO 連結了傳統職人的經驗誠信與現代電商的便捷透明，旨在為全台車主提供最精確、高品質的零件解決方案。</p>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-sm-pull-8">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
         <!--========== END PROMO BLOCK ==========-->
 
 
