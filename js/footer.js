@@ -22,18 +22,18 @@ header ='<!doctype html>\
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">\
                                 \
                                 <li><a style="color:#1aa7d3">Applications</a></li>\
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Mazda.html">Mazda 馬自達</a></li>\
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Ford.html">Ford 福特</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_Mazda.html">Mazda 馬自達</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_Ford.html">Ford 福特</a></li>\
                             </ul>\
                         </div>\
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">\
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">\
                                 \
                                 <li><a style="color:#1aa7d3">Brand Partners</a></li>\
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="SACHS.html">SACHS 薩克斯</a></li>\
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="BOSCH.html">BOSCH 博世</a></li>\
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brembo">Brembo 布雷博</a></li>\
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="MEYLE.html">MEYLE 梅爾</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_SACHS.html">SACHS 薩克斯</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_BOSCH.html">BOSCH 博世</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_Brembo">Brembo 布雷博</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_MEYLE.html">MEYLE 梅爾</a></li>\
                             </ul>\
                         </div>\
                         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">\
