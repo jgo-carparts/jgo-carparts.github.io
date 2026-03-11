@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <!-- Begin Head -->
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>合作洽談與供應鏈招募 ｜ JGO 捷國汽車零件</title>
+        <meta name="keywords" content="JGO,捷國,捷國國際,汽車零件,汽車耗材批,發汽車正廠零件,汽車百貨精品,原廠零件,汽車五金配件,全台汽車零件配送,優質汽車配件推薦,SACHS,BOSCH,FOCUS,福特,馬自達,Mazda,MX5,原廠機油芯,空氣濾芯,煞車碟盤,避震器,火星塞" />
+        <meta name="description" content="JGO 捷國國際為您提供專業汽車正廠零件與優質汽車百貨配件。我們致力於整合高品質零件供應鏈，為全台車主與保修廠提供最可靠、高效率的零件批發與零售服務。立即探索 JGO 的汽車配件解決方案。">
+        <meta name="author" content="https://jgo-carparts.github.io/">
+
+        <!-- Web Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+
+
+        <!-- Vendor Styles -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Theme Styles -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.png">
+    </head>
+    <!-- End Head -->
+
+    <!-- Body -->
+    <body>
+
+
+<!--link menu-->
+<script src="js/menu_Corporate.js"></script>
+
+
+        <!--========== PAGE CONTENT ==========-->
+        <!-- Feedback Form -->
+        <div class="g-position--relative g-bg-color--primary">
+            <div class="g-container--md g-padding-y-125--xs">
+
+
+
+                <div class="row g-row-col--5 g-margin-b-80--xs">
+                    <div class="col-xs-12 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
+                        <div class="g-text-center--xs">
+                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
+                        </div>
+                    </div>
+                </div>
+
+      <div style="text-align: center; padding: 40px; font-family: sans-serif;">
+          <div style="border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; padding: 40px 120px; display: inline-block;">
+
+            <h1 style="margin-top: 0; color: #fff;">Thanks!</h1>
+            <p style="color: #fff; opacity: 0.8;">The form was submitted successfully.<br>表單已成功提交。</p>
+
+          </div>
+      </div>
+
+
+
+            </div>
+            <img class="s-mockup-v2" src="img/other/pencil.png" alt="Mockup Image">
+        </div>
+        <!-- End Feedback Form -->
+        <!--========== END PAGE CONTENT ==========-->
+
+
+
+
+        <!--link footer-->
+        <script src="js/footer.js"></script>
+
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+
+
+        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+        <!-- Vendor -->
+        <script type="text/javascript" src="vendor/jquery.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+        <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
+
+        <!-- General Components and Settings -->
+        <script type="text/javascript" src="js/global.min.js"></script>
+        <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
+        <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
+        <!--========== END JAVASCRIPTS ==========-->
+
+<script>
+  const jcForm = document.getElementById("jc-contact-form");
+  const formStatus = document.getElementById("form-status");
+  const submitBtn = document.getElementById("submit-btn");
+
+  async function handleJcSubmit(event) {
+    event.preventDefault(); // 阻止原本的頁面跳轉
+
+    const data = new FormData(event.target);
+    submitBtn.value = "傳送中...";
+    submitBtn.disabled = true;
+
+    fetch(event.target.action, {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        // 核心功能：成功後另開新分頁顯示 Formspree 的感謝頁
+        window.open("./thanks.html", "_blank");
+
+        // 在原官網頁面顯示成功訊息
+        formStatus.innerHTML = "✓ 已成功送出！感謝您的留言。";
+        formStatus.style.color = "#28a745";
+        formStatus.style.display = "block";
+
+        jcForm.reset(); // 清空表單
+      } else {
+        formStatus.innerHTML = "抱歉，送出時發生錯誤。";
+        formStatus.style.color = "#dc3545";
+        formStatus.style.display = "block";
+      }
+    }).catch(error => {
+      formStatus.innerHTML = "網路連線異常，請稍後再試。";
+      formStatus.style.display = "block";
+    }).finally(() => {
+      submitBtn.value = "發送";
+      submitBtn.disabled = false;
+    });
+  }
+
+  jcForm.addEventListener("submit", handleJcSubmit);
+</script>
+
+
+    </body>
+    <!-- End Body -->
+</html>
