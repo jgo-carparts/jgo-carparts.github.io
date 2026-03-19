@@ -34,6 +34,8 @@ header ='<!doctype html>\
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_BOSCH.html">BOSCH 博世</a></li>\
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_Brembo">Brembo 布雷博</a></li>\
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_MEYLE.html">MEYLE 梅爾</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_Bilstein">Bilstein 倍適登</a></li>\
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="Brand_CBM.html">CBM 車大爺</a></li>\
                             </ul>\
                         </div>\
                         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">\
